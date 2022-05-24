@@ -8,8 +8,8 @@ const MobileMenu = ({isClicked}) => {
                 className={`absolute ${isClicked ? "flex" : "hidden"
                     } rounded-md flex-col items-center self-end py-8 space-y-6 font-bold text-white bg-primary sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}
             >
-                <a href="/about">About</a>
-                <a href="/#">Technical Skills</a>
+                <a href="/#about">About</a>
+                <a href="/#technical-skills">Technical Skills</a>
                 <a href="/#">Portfolio</a>
                 <a href="/#">Contact</a>
                 <div className="flex items-center -mx-2">

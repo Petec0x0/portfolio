@@ -5,10 +5,10 @@ const NavSection = () => {
         <nav className="hidden py-2 px-4 font-bold text-gray-300 uppercase text-xs md:block">
             <ul className="flex space-x-5">
                 <li className="hover:text-primary">
-                    <a href="/#">About</a>
+                    <a href="/#about">About</a>
                 </li>
                 <li className="hover:text-primary">
-                    <a href="/">Technical Skills</a>
+                    <a href="/#technical-skills">Technical Skills</a>
                 </li>
                 <li className="hover:text-primary">
                     <a href="/#">Portfolio</a>

@@ -9,11 +9,14 @@ import php from 'images/php.svg';
 import python from 'images/python.svg';
 import reactjs from 'images/reactjs.svg';
 import tailwindcss from 'images/tailwindcss.svg';
+import html from 'images/html.svg';
+import css from 'images/css.svg';
+import git from 'images/git.svg';
 
 
 const AboutSection = () => {
     return (
-        <div className="bg-[#151d3f] md:px-24">
+        <div id="about" className="bg-[#151d3f] md:px-24">
             <div className="flex flex-col justify-center px-6 py-8 md:flex-row">
                 <div className="flex md:w-1/3">
                     <img
@@ -36,9 +39,9 @@ const AboutSection = () => {
                 </div>
             </div>
 
-            <section>
+            <section id="technical-skills">
                 <h2 className="text-white text-center text-2xl font-bold p-6">Technical skills</h2>
-                <div className="flex flex-wrap justify-center">
+                <div className="flex flex-wrap justify-center lg:px-24">
                     <div className="p-4">
                         <img src={python} height={65} width={65} alt="Python" /> 
                     </div>
@@ -53,6 +56,15 @@ const AboutSection = () => {
                     </div>
                     <div className="p-4">
                         <img src={reactjs} height={65} width={65} alt="React Js" /> 
+                    </div>
+                    <div className="p-4">
+                        <img src={git} height={65} width={65} alt="Git" /> 
+                    </div>
+                    <div className="p-4">
+                        <img src={html} height={65} width={65} alt="HTML" /> 
+                    </div>
+                    <div className="p-4">
+                        <img src={css} height={65} width={65} alt="CSS" /> 
                     </div>
                     <div className="p-4">
                         <img src={tailwindcss} height={65} width={65} alt="Tailwind CSS" /> 
