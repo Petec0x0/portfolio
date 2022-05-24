@@ -1,17 +1,16 @@
 import React from 'react';
 import regtech from 'images/regtech.png';
 import bootstrap from 'images/bootstrap.svg';
-import javascript from 'images/javascript.svg';
+// import javascript from 'images/javascript.svg';
 import mongodb from 'images/mongodb.svg';
-import mysql from 'images/mysql.svg';
+// import mysql from 'images/mysql.svg';
 import nodejs from 'images/nodejs.svg';
-import php from 'images/php.svg';
-import python from 'images/python.svg';
+// import php from 'images/php.svg';
+// import python from 'images/python.svg';
 import reactjs from 'images/reactjs.svg';
-import tailwindcss from 'images/tailwindcss.svg';
-import html from 'images/html.svg';
-import css from 'images/css.svg';
-import git from 'images/git.svg';
+// import tailwindcss from 'images/tailwindcss.svg';
+// import html from 'images/html.svg';
+// import css from 'images/css.svg';
 import popup_link from 'images/popup-link.svg';
 import github from 'images/github.svg';
 
