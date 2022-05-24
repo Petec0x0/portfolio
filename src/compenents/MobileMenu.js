@@ -11,7 +11,7 @@ const MobileMenu = ({isClicked}) => {
                 <a href="/#about">About</a>
                 <a href="/#technical-skills">Technical Skills</a>
                 <a href="/#portfolio">Portfolio</a>
-                <a href="/#">Contact</a>
+                <a href="/#contact">Contact</a>
                 <div className="flex items-center -mx-2">
                     <a target="_blank" rel="noopener noreferrer" className="flex items-center mx-2 text-white hover:text-primary" href="https://github.com/petec0x0">
                         <svg className="h-5 w-5 sm:h-6 sm:w-6 fill-current" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>

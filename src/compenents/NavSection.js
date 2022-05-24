@@ -14,7 +14,7 @@ const NavSection = () => {
                     <a href="/#portfolio">Portfolio</a>
                 </li>
                 <li className="hover:text-primary">
-                    <a href="/#">Contact</a>
+                    <a href="/#contact">Contact</a>
                 </li>
             </ul>
         </nav>

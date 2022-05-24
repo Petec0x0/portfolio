@@ -5,6 +5,7 @@ import MobileMenu from "compenents/MobileMenu";
 import NavSection from "compenents/NavSection";
 import SocialIcons from "compenents/SocialIcons";
 import PortfolioSection from "compenents/PortfolioSection";
+import ContactSection from "compenents/ContactSection";
 
 function App() {
   const [isClicked, setIsClicked] = useState(false);
@@ -17,11 +18,6 @@ function App() {
             <div>
               <a className="flex items-center hover:text-primary" href="/">
                 <span className="text-primary font-bold text-xl">Petec0x0</span>
-                {/* <svg className="h-6 w-6 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg> */}
-
-                {/* <span className="mx-3 font-medium text-sm md:text-base">Onyedikachi Peter</span> */}
               </a>
             </div>
             <NavSection />
@@ -45,6 +41,15 @@ function App() {
       <HeroSection />
       <AboutSection />
       <PortfolioSection />
+      <ContactSection />
+      {/* Footer section */}
+      <div className="bg-[#151d3f] border-b-2 border-primary md:px-24">
+        <div className="container mx-auto px-6 py-2">
+          <div className="flex items-center justify-center">
+            <p className="text-xs text-white">@ 2022 - Petec0x0</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
