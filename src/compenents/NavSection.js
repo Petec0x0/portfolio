@@ -11,7 +11,7 @@ const NavSection = () => {
                     <a href="/#technical-skills">Technical Skills</a>
                 </li>
                 <li className="hover:text-primary">
-                    <a href="/#">Portfolio</a>
+                    <a href="/#portfolio">Portfolio</a>
                 </li>
                 <li className="hover:text-primary">
                     <a href="/#">Contact</a>

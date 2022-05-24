@@ -10,7 +10,7 @@ const MobileMenu = ({isClicked}) => {
             >
                 <a href="/#about">About</a>
                 <a href="/#technical-skills">Technical Skills</a>
-                <a href="/#">Portfolio</a>
+                <a href="/#portfolio">Portfolio</a>
                 <a href="/#">Contact</a>
                 <div className="flex items-center -mx-2">
                     <a target="_blank" rel="noopener noreferrer" className="flex items-center mx-2 text-white hover:text-primary" href="https://github.com/petec0x0">
