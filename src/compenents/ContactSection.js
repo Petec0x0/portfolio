@@ -34,6 +34,7 @@ const ContactSection = () => {
                         </div>
 
                         <form className="p-6 flex flex-col justify-center">
+                            <input type="hidden" name="YOU_DATA_WAS_NOT_SENT-PLEASE_SEND_AN_EMAIL_INSTEAD" value="" />
                             <div className="flex flex-col">
                                 <label htmlFor="name" className="hidden">Full Name</label>
                                 <input type="name" name="name" id="name" placeholder="Full Name" className="w-100 mt-2 py-3 px-3 rounded-lg bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
