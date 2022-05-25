@@ -1,6 +1,16 @@
 import React from 'react';
+import Swal from 'sweetalert2'
 
 const ContactSection = () => {
+    const handleOnClick = (e) => {
+        e.preventDefault();
+        Swal.fire({
+            title: 'Error!',
+            text: "Message not sent. Please send an email instead.",
+            icon: 'error',
+            confirmButtonText: 'Ok'
+        })
+    }
     return (
         <div id="contact" className="relative flex items-top justify-center bg-gray-900 sm:items-center sm:pt-0">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -53,7 +63,7 @@ const ContactSection = () => {
                                 {/* <input type="tel" name="tel" id="tel" placeholder="Telephone Number" className="w-100 mt-2 py-3 px-3 rounded-lg bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" /> */}
                             </div>
 
-                            <button type="submit" className="md:w-32 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300">
+                            <button onClick={handleOnClick} type="submit" className="md:w-32 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300">
                                 Submit
                             </button>
                         </form>
