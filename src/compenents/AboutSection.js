@@ -12,6 +12,8 @@ import tailwindcss from 'images/tailwindcss.svg';
 import html from 'images/html.svg';
 import css from 'images/css.svg';
 import git from 'images/git.svg';
+import laravel from 'images/laravel.svg';
+import django from 'images/django.svg';
 
 
 const AboutSection = () => {
@@ -77,6 +79,12 @@ const AboutSection = () => {
                     </div>
                     <div className="p-4">
                         <img src={mysql} height={65} width={65} alt="MySQL" /> 
+                    </div>
+                    <div className="p-4">
+                        <img src={laravel} height={65} width={65} alt="Laravel" /> 
+                    </div>
+                    <div className="p-4">
+                        <img src={django} height={65} width={65} alt="Django" /> 
                     </div>
                 </div>
             </section>
