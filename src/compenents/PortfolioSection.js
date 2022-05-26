@@ -1,6 +1,7 @@
 import React from 'react';
 import regtech from 'images/regtech.png';
 import cbt from 'images/cbt-app.png';
+import nruputa from 'images/nruputa.png';
 import bootstrap from 'images/bootstrap.svg';
 import javascript from 'images/javascript.svg';
 import mongodb from 'images/mongodb.svg';
@@ -14,6 +15,7 @@ import PopupLinkIcon from 'images/PopupLinkIcon';
 // import tailwindcss from 'images/tailwindcss.svg';
 import html from 'images/html.svg';
 import css from 'images/css.svg';
+import react_native from 'images/react-native.svg';
 
 const PortfolioSection = () => {
     return (
@@ -56,9 +58,9 @@ const PortfolioSection = () => {
                 <div className="md:p-4 md:w-1/2">
                     <h2 className="text-white font-bold text-xl md:px-4 md:py-6">CBT App</h2>
                     <p className="text-gray-300 py-2 md:px-4 md:py-0">
-                        The CBT App is a web-based computer-based test program meant to help students 
+                        The CBT App is a web-based computer-based test program meant to help students
                         prepare for JAMB, POST-UTME, and other similar tests.
-                        Students can practice and enhance their speed and knowledge using this web application, 
+                        Students can practice and enhance their speed and knowledge using this web application,
                         which simulates a real test environment.
                     </p>
                     <div className="flex flex-row py-2 md:px-4">
@@ -74,6 +76,33 @@ const PortfolioSection = () => {
                             <GithubIcon />
                         </a>
                         <a title="Demo Link" className="flex items-center mx-2 text-white hover:text-primary" target="_blank" rel="noopener noreferrer" href="https://cbt-web-0x0.000webhostapp.com/">
+                            <PopupLinkIcon />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <span className="p-10"></span>
+            <div className="flex flex-col md:flex-row justify-center">
+                <div className="p-4 md:w-1/2 lg:w-1/3">
+                    <img src={nruputa} alt="Nruputa" />
+                </div>
+                <div className="md:p-4 md:w-1/2">
+                    <h2 className="text-white font-bold text-xl md:px-4 md:py-6">Nruputa</h2>
+                    <p className="text-gray-300 py-2 md:px-4 md:py-0">
+                        Nruputa is a Pomodoro time management technique app that helps 
+                        you keep your productivity high in an efficient way. 
+                        Built with React Native
+                    </p>
+                    <div className="flex flex-row py-2 md:px-4">
+                        <span className="text-white font-bold self-center">Built With: </span>
+                        <img className="mx-1" src={react_native} height={20} width={20} alt="React Native" />
+                        <img className="mx-1" src={reactjs} height={20} width={20} alt="React Js" />
+                    </div>
+                    <div className="flex flex-row md:px-4">
+                        <a title="Github Link" className="flex items-center mx-2 text-white hover:text-primary" target="_blank" rel="noopener noreferrer" href="https://github.com/Petec0x0/nruputa">
+                            <GithubIcon />
+                        </a>
+                        <a title="Demo Link" className="flex items-center mx-2 text-white hover:text-primary" target="_blank" rel="noopener noreferrer" href="/#">
                             <PopupLinkIcon />
                         </a>
                     </div>

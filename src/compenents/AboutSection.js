@@ -14,6 +14,7 @@ import css from 'images/css.svg';
 import git from 'images/git.svg';
 import laravel from 'images/laravel.svg';
 import django from 'images/django.svg';
+import react_native from 'images/react-native.svg';
 
 
 const AboutSection = () => {
@@ -85,6 +86,9 @@ const AboutSection = () => {
                     </div>
                     <div className="p-4">
                         <img src={django} height={65} width={65} alt="Django" /> 
+                    </div>
+                    <div className="p-4">
+                        <img src={react_native} height={65} width={65} alt="React Native" /> 
                     </div>
                 </div>
             </section>
