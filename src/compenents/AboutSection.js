@@ -46,49 +46,49 @@ const AboutSection = () => {
                 <h2 className="text-white text-center text-2xl font-bold p-6">Technical skills</h2>
                 <div className="flex flex-wrap justify-center lg:px-24">
                     <div className="p-4">
-                        <img src={python} height={65} width={65} alt="Python" /> 
+                        <img src={python} height={50} width={50} alt="Python" /> 
                     </div>
                     <div className="p-4">
-                        <img src={php} height={65} width={65} alt="PHP" /> 
+                        <img src={php} height={50} width={50} alt="PHP" /> 
                     </div>
                     <div className="p-4">
-                        <img src={javascript} height={65} width={65} alt="Javascript" /> 
+                        <img src={javascript} height={50} width={50} alt="Javascript" /> 
                     </div>
                     <div className="p-4">
-                        <img src={nodejs} height={65} width={65} alt="Node Js" /> 
+                        <img src={nodejs} height={50} width={50} alt="Node Js" /> 
                     </div>
                     <div className="p-4">
-                        <img src={reactjs} height={65} width={65} alt="React Js" /> 
+                        <img src={reactjs} height={50} width={50} alt="React Js" /> 
                     </div>
                     <div className="p-4">
-                        <img src={git} height={65} width={65} alt="Git" /> 
+                        <img src={git} height={50} width={50} alt="Git" /> 
                     </div>
                     <div className="p-4">
-                        <img src={html} height={65} width={65} alt="HTML" /> 
+                        <img src={html} height={50} width={50} alt="HTML" /> 
                     </div>
                     <div className="p-4">
-                        <img src={css} height={65} width={65} alt="CSS" /> 
+                        <img src={css} height={50} width={50} alt="CSS" /> 
                     </div>
                     <div className="p-4">
-                        <img src={tailwindcss} height={65} width={65} alt="Tailwind CSS" /> 
+                        <img src={tailwindcss} height={50} width={50} alt="Tailwind CSS" /> 
                     </div>
                     <div className="p-4">
-                        <img src={bootstrap} height={65} width={65} alt="Bootstrap" /> 
+                        <img src={bootstrap} height={50} width={50} alt="Bootstrap" /> 
                     </div>
                     <div className="p-4">
-                        <img src={mongodb} height={65} width={65} alt="MongoDB" /> 
+                        <img src={laravel} height={50} width={50} alt="Laravel" /> 
                     </div>
                     <div className="p-4">
-                        <img src={mysql} height={65} width={65} alt="MySQL" /> 
+                        <img src={django} height={50} width={50} alt="Django" /> 
                     </div>
                     <div className="p-4">
-                        <img src={laravel} height={65} width={65} alt="Laravel" /> 
+                        <img src={mongodb} height={50} width={50} alt="MongoDB" /> 
                     </div>
                     <div className="p-4">
-                        <img src={django} height={65} width={65} alt="Django" /> 
+                        <img src={mysql} height={50} width={50} alt="MySQL" /> 
                     </div>
                     <div className="p-4">
-                        <img src={react_native} height={65} width={65} alt="React Native" /> 
+                        <img src={react_native} height={50} width={50} alt="React Native" /> 
                     </div>
                 </div>
             </section>
