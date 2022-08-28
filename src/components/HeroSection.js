@@ -17,7 +17,7 @@ const HeroSection = () => {
                                 Hello, I am <span className="font-bold">Onyedikachi Udeh</span>
                             </h1>
                             <hr className="w-12 h-1 bg-primary rounded-full mt-8" />
-                            <p className="text-white text-base leading-relaxed mt-8 font-semibold">Software developer and Machine Learning enthusiast from Enugu, Nigeria</p>
+                            <p className="text-white text-base leading-relaxed mt-8 font-semibold">Full stack developer and Machine Learning enthusiast from Enugu, Nigeria</p>
                             <img className="md:hidden" src={developer} alt="Developer illustration" />
                             <div className="get-app flex space-x-5 mt-10 justify-center md:justify-start">
                                 <a href="#contact">

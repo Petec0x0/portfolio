@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import HeroSection from "compenents/HeroSection";
-import AboutSection from "compenents/AboutSection";
-import MobileMenu from "compenents/MobileMenu";
-import NavSection from "compenents/NavSection";
-import SocialIcons from "compenents/SocialIcons";
-import PortfolioSection from "compenents/PortfolioSection";
-import ContactSection from "compenents/ContactSection";
+import HeroSection from "components/HeroSection";
+import AboutSection from "components/AboutSection";
+import MobileMenu from "components/MobileMenu";
+import NavSection from "components/NavSection";
+import SocialIcons from "components/SocialIcons";
+import PortfolioSection from "components/PortfolioSection";
+import ContactSection from "components/ContactSection";
 
 function App() {
   const [isClicked, setIsClicked] = useState(false);
