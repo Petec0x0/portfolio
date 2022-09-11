@@ -43,7 +43,7 @@ const PortfolioSection = () => {
                         <a title="Github Link" className="flex items-center mx-2 text-white hover:text-primary" target="_blank" rel="noopener noreferrer" href="https://github.com/Petec0x0/ims-web">
                             <GithubIcon />
                         </a>
-                        <a title="Demo Link" className="flex items-center mx-2 text-white hover:text-primary" target="_blank" rel="noopener noreferrer" href="/#">
+                        <a title="Demo Link" className="flex items-center mx-2 text-white hover:text-primary" target="_blank" rel="noopener noreferrer" href="https://ims-260t.onrender.com/">
                             <PopupLinkIcon />
                         </a>
                     </div>
